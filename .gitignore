@@ -1,0 +1,23 @@
+# mac
+.DS_Store
+
+# emacs
+*~
+\#*\#
+.\#*
+.projectile
+.dir-locals.el
+
+# terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# output
+out/*
+response.txt
